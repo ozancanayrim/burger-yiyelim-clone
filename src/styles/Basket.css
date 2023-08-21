@@ -44,7 +44,7 @@
   }
 
   .basket-content img {
-    width: 200px;
+    width: 150px;
   }
 }
 
@@ -63,17 +63,16 @@
   }
 
   .basket-content h3 {
-    margin: 0;
     font-size: 16px;
   }
   .basket-content p {
-    margin: 0;
+    margin-top: 5px;
     font-size: 15px;
   }
 
   .basket-content span {
     font-size: 15px;
-    margin: 0;
+    margin-top: 5px;
   }
 
   .basket-content button {
@@ -88,7 +87,7 @@
   }
 
   .basket-container h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .basket-container h3 {
@@ -104,7 +103,7 @@
   }
 
   .basket-content img {
-    width: 400px;
+    width: 180px;
   }
 
   .basket-content button {
@@ -134,7 +133,7 @@
   }
 
   .basket-content img {
-    width: 400px;
+    width: 200px;
   }
 
   .basket-content button {
@@ -142,8 +141,12 @@
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .basket-content img {
     width: 180px;
+  }
+
+  .basket-content img {
+    width: 200px;
   }
 }
