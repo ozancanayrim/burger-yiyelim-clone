@@ -1,0 +1,70 @@
+.navbar-container {
+  height: 10vh;
+  background-color: darkred;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-container img {
+  width: 110px;
+}
+
+.navbar-nav {
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+.navbar-container a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .navbar-container {
+    justify-content: space-evenly;
+  }
+
+  .navbar-container img {
+    width: 60px;
+    margin-left: 70px;
+  }
+
+  .navbar-nav {
+    margin-right: 110px;
+    font-size: 12px;
+  }
+
+  .navbar-container a {
+    margin-left: 8px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-container {
+    height: 20vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-container {
+    height: 10vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .navbar-container {
+    height: 10vh;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .navbar-container {
+    height: 10vh;
+  }
+
+  .navbar-container img {
+    width: 90px;
+  }
+}

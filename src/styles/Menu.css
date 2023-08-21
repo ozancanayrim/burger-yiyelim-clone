@@ -1,0 +1,168 @@
+.order-process {
+  text-align: center;
+}
+
+.order-process h1 {
+  margin-top: 10px;
+}
+
+.order-process h2 {
+  margin-top: 20px;
+}
+
+.order-process a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 15px;
+  color: darkred;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 25vw;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.card img {
+  width: 200px;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+.card span {
+  margin-top: 10px;
+  font-size: 18px;
+  color: red;
+}
+
+.increase-button {
+  cursor: pointer;
+  width: 100px;
+  margin-top: 10px;
+  background-color: darkred;
+  color: white;
+  border: 1px solid darkred;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.decrease-button {
+  cursor: pointer;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: darkgray;
+  color: black;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .order-process {
+    text-align: center;
+  }
+
+  .order-process h1 {
+    margin-top: 10px;
+  }
+
+  .order-process h2 {
+    margin-top: 15px;
+  }
+
+  .order-process a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 15px;
+    color: darkred;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 25px;
+  }
+
+  .card img {
+    width: 120px;
+  }
+
+  .card p {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .card span {
+    margin-top: 5px;
+    font-size: 16px;
+    color: red;
+  }
+
+  .increase-button {
+    cursor: pointer;
+    width: 50px;
+    margin-top: 10px;
+    background-color: darkred;
+    color: white;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    padding: 4px;
+  }
+
+  .decrease-button {
+    cursor: pointer;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: darkgray;
+    color: black;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 4px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card {
+    width: 35vw;
+  }
+}

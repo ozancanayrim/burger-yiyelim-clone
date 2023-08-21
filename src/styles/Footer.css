@@ -1,0 +1,53 @@
+.footer-container {
+  height: 20vh;
+  background-color: darkred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container nav a {
+  font-size: 20px;
+  color: white;
+  margin: 20px;
+}
+
+.footer-container svg {
+  width: 40px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .footer-container {
+    height: 10vh;
+  }
+
+  .footer-container svg {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .footer-container {
+    height: 20vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .footer-container {
+    height: 10vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .footer-container {
+    height: 10vh;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .footer-container {
+    height: 20vh;
+  }
+}

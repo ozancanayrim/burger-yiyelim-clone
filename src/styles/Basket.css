@@ -1,0 +1,149 @@
+.basket-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.basket-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.basket-content img {
+  width: 300px;
+}
+
+.basket-content p {
+  margin-top: 10px;
+}
+
+.basket-content span {
+  margin-top: 10px;
+  color: red;
+  font-size: 20px;
+}
+
+.confirm-button {
+  width: 80px;
+  background-color: darkred;
+  color: white;
+  padding: 5px;
+  border: 1px solid darkred;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .basket-container {
+    height: 80vh;
+  }
+
+  .basket-content img {
+    width: 200px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .basket-container {
+    height: 60vh;
+  }
+
+  .basket-container h1 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .basket-content img {
+    width: 100px;
+  }
+
+  .basket-content h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  .basket-content p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .basket-content span {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .basket-content button {
+    margin-bottom: 35px;
+    padding: 2px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .basket-container {
+    height: 80vh;
+  }
+
+  .basket-container h1 {
+    font-size: 40px;
+  }
+
+  .basket-container h3 {
+    font-size: 25px;
+  }
+
+  .basket-container p {
+    font-size: 25px;
+  }
+
+  .basket-container span {
+    font-size: 25px;
+  }
+
+  .basket-content img {
+    width: 400px;
+  }
+
+  .basket-content button {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .basket-container {
+    height: 80vh;
+  }
+
+  .basket-container h1 {
+    font-size: 40px;
+  }
+
+  .basket-container h3 {
+    font-size: 25px;
+  }
+
+  .basket-container p {
+    font-size: 25px;
+  }
+
+  .basket-container span {
+    font-size: 25px;
+  }
+
+  .basket-content img {
+    width: 400px;
+  }
+
+  .basket-content button {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .basket-content img {
+    width: 180px;
+  }
+}

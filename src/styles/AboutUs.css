@@ -1,0 +1,56 @@
+.aboutUs-background {
+  background-image: url("../assets/banneryeni.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1200px;
+  height: 50vh;
+}
+
+.aboutUs-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.aboutUs-content h1 {
+  margin-top: 10px;
+}
+
+.aboutUs-content p {
+  padding: 0 20px;
+  text-indent: 30px;
+  line-height: 25px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .aboutUs-background {
+    background-size: contain;
+    height: 25vh;
+  }
+
+  .aboutUs-content h1 {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .aboutUs-background {
+    padding: 150px;
+    height: 50vh;
+    width: 100vw;
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .aboutUs-background {
+    height: 50vh;
+    background-size: contain;
+    margin-top: 20px;
+  }
+}
