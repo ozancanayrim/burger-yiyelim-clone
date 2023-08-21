@@ -149,4 +149,8 @@
   .basket-content img {
     width: 200px;
   }
+
+  .basket-content button {
+    font-size: 15px;
+  }
 }
